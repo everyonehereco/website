@@ -3,10 +3,12 @@
   --brand-text: rgb(22, 71, 251);
   --header-height: 55px;
   --highlight-background: rgba(252, 255, 99, 1);
+  --main-font: 'Open Sans';
+  --header-font: 'Montserrat';
 }
 
 html {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: var(--main-font), Helvetica, Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
