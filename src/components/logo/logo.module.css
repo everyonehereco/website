@@ -1,0 +1,18 @@
+.logo {
+    display: inline-block;
+}
+
+.logo h1 {
+    padding: 0 0.5em;
+    height: var(--header-height);
+    line-height: var(--header-height);
+    margin: 0;
+}
+
+.link {
+    color: var(--brand-text);
+    text-decoration: none;
+    font-size: 24px;
+    height: 1em;
+    vertical-align: middle;
+}

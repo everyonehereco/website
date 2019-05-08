@@ -1,0 +1,18 @@
+.footer {
+    background: rgba(20, 20, 20, 0.2);
+    padding: 20px 5px 5px 5px;
+    text-align: center;
+}
+
+.footer h3 {
+    color: var(--brand-text);
+    margin: 0;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.brandLink, .brandLink:visited {
+    color: rgba(37, 34, 34, 0.8);
+    margin: 5px;
+    font-size: 26px;
+}
