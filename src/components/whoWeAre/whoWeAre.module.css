@@ -20,3 +20,27 @@
     display: inline-block;
     margin-left: 30px;
 }
+
+.pullContent {
+    box-shadow: -15px 15px 0 0 rgba(250, 227, 235, 0.9),
+        -30px 30px 0 0 rgba(250, 227, 235, 0.5);
+    background: rgb(247, 252, 255);
+    padding: 15px 15px 3px 15px;
+}
+
+@media (max-width: 600px) {
+    .content {
+        grid-template-columns: auto;
+        background: rgba(250, 227, 235, 0.5);
+        margin: 10px;
+    }
+
+    .avatar {
+        margin: 0 auto;
+    }
+
+    .pullContent {
+        box-shadow: none;
+        background: transparent;
+    }
+}

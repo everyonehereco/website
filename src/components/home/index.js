@@ -9,7 +9,7 @@ const Home = () => (
             problems | Realise your best ideas with workshops
             from Everyone Here
         </h1>
-        <img className={Styles.drawing} src={image} align='right' />
+        <img className={Styles.drawing} src={image} />
     </div>
 );
 

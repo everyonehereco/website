@@ -13,5 +13,18 @@
 .drawing {
     margin: 15px 45px 5px 5px;
     width: 200px;
-    height: 200px;
+    height: 250px;
+    float: right;
+}
+
+@media (max-width: 800px) {
+    .home h1 {
+        display: block;
+        width: calc(100% - 60px);
+    }
+
+    .drawing {
+        float: none;
+        display: none;
+    }
 }
