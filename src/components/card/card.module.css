@@ -1,9 +1,17 @@
 .card {
-    padding: 3px;
+    padding: 3px 15px;
+    background: white;
 }
 
 .card h4 {
     font-size: 32px;
     font-weight: 600;
     font-family: var(--header-font);
+    margin: 10px 0;
+}
+
+@media (max-width: 800px) {
+    .card {
+        margin: 10px 0;
+    }
 }
