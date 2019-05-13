@@ -1,5 +1,6 @@
 .home {
     margin: 40px 0 80px 0;
+    min-height: 190px;
 }
 
 .home h1 {
